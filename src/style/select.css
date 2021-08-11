@@ -1,0 +1,75 @@
+.select {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.select div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.select div button {
+  margin-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 19px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset {
+  align-self: center;
+  margin-top: 30px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.bg-blue {
+  background-color: #185adb;
+  color: white;
+}
+
+.bg-green {
+  background-color: #66de93;
+  color: white;
+}
+
+.bg-red {
+  background-color: #cd113b;
+  color: white;
+}
+
+.bg-yellow {
+  background-color: rgb(241, 179, 64);
+  color: white;
+}
+
+.bordered {
+  background-color: transparent;
+  color: black;
+}
+
+.bordered.cyan {
+  border: cyan 1px solid;
+}
+
+.bordered.purple {
+  border: #ff94cc 1px solid;
+}
+
+.bordered.black {
+  border: black 1px solid;
+}

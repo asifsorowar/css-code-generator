@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# CSS Code Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt interface](image1.png)
+![alt interface](image.png)
 
 ## Available Scripts
 

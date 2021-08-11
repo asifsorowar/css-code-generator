@@ -1,0 +1,16 @@
+.code {
+  text-align: left !important;
+}
+
+.code-div {
+  width: 40vw;
+  height: 40vh;
+  min-width: 300px;
+  min-height: 300px;
+  border: 1px solid rgb(36, 35, 35);
+  padding: 10px;
+}
+
+.bracket {
+  display: block;
+}
