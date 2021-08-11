@@ -14,7 +14,7 @@ export const actionType = {
 };
 
 const reducer = (state, action) => {
-  console.log(action.payload);
+  // console.log(action.payload);
   switch (action.type) {
     case actionType.bgColor:
       return { ...state, bgColor: action.payload };

@@ -19,7 +19,7 @@ const Code = () => {
             {fontFamily && <p>&#x00009;font-family: {fontFamily};</p>}
             {fontColor && <p>&#x00009;color: {fontColor};</p>}
             <p className="bracket">
-              <p className="bracket">&#x0007B;</p>
+              <p className="bracket">&#x0007D;</p>
             </p>
           </>
         )}

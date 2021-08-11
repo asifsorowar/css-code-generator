@@ -30,7 +30,7 @@ const Select = () => {
       });
 
     if (name == "cyan")
-      dispatch({ type: actionType.fontColor, payload: "##00FFFF" });
+      dispatch({ type: actionType.fontColor, payload: "#00FFFF" });
 
     if (name == "purple")
       dispatch({ type: actionType.fontColor, payload: "#FF94CC" });
